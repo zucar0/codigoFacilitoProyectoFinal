@@ -1,0 +1,30 @@
+// :host{
+//   display: flex;
+//   flex-direction: column;
+//   height: 100%;
+// }
+.content{
+  margin: 0;
+  flex: 1;
+  position: relative;
+  background-color: #1d90ce;
+
+}
+
+// .cody-img{
+//   position: fixed;
+//   bottom: 1em;
+//   right: 1em;
+// }
+
+.list{
+  width: 80%;
+  margin-top: 2em;
+  margin: auto;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
+  gap: 0.5em;
+  margin-top: 2em;
+}
