@@ -1,7 +1,7 @@
 <div class="detail-card"
   *ngIf="card$ | async as card">
   <div class="top">
-    <img src="" alt="">
+    <img src="{{card.card_images[0].image_url}}" alt="">
   </div>
   <div class="bottom">
     <h2>{{card.name}}</h2>
